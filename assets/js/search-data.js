@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Machine learning, computer vision, NLP, and software engineering projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-about-me",
           title: "about me",
           description: "",
@@ -402,51 +409,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-c-shell",
+          title: 'C-SHELL',
+          description: "A Linux command-line shell with process, signal, pipe, and redirection support.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/c-shell/";
+            },},{id: "projects-greddit",
+          title: 'GREDDIT',
+          description: "A Reddit-like community platform built with the MERN stack.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/greddit/";
+            },},{id: "projects-live-traffic-monitoring-system",
+          title: 'Live Traffic Monitoring System',
+          description: "Real-time vehicle classification, counting, and visualization using YOLOv8.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/live-traffic-monitoring/";
+            },},{id: "projects-metagenomic-binning-using-graph-neural-networks",
+          title: 'Metagenomic Binning Using Graph Neural Networks',
+          description: "Constraint-aware graph neural networks for grouping metagenomic sequences.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/metagenomic-binning-gnn/";
+            },},{id: "projects-movie-community-platform",
+          title: 'Movie Community Platform',
+          description: "A relational data platform for movies, characters, events, and community contributions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/movie-community-platform/";
+            },},{id: "projects-multimodal-e-commerce-retrieval-system",
+          title: 'Multimodal E-commerce Retrieval System',
+          description: "A multimodal product-retrieval application supporting text and image queries.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/multimodal-ecommerce-retrieval/";
+            },},{id: "projects-refchecker-hallucination-detection",
+          title: 'RefChecker – Hallucination Detection',
+          description: "Fine-grained detection of factual errors in large language model outputs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/refchecker/";
+            },},{id: "projects-transformer-ocr",
+          title: 'Transformer OCR',
+          description: "An end-to-end Transformer model for printed, handwritten, and scene-text recognition.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/transformer-ocr/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
