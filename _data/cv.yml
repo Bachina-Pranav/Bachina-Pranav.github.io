@@ -68,7 +68,11 @@ cv:
       - title: KVPY Fellowship
         awarder: Department of Science and Technology, Government of India
         date: 2021
-        summary: Awarded the prestigious KVPY fellowship for outstanding performance in the KVPY examination, recognizing potential in scientific research.
+        summary: Awarded the KVPY Fellowship with All India Rank (AIR) 193 for demonstrated aptitude in scientific research.
+
+      - title: Joint Entrance Examination (JEE)
+        date: 2021
+        summary: Achieved All India Rank (AIR) 893 in JEE Main and AIR 1,933 in JEE Advanced.
 
     Publications:
       - title: "LoReTTA: Low Resource Framework To Poison Continuous Time Dynamic Graphs"
