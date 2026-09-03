@@ -26,3 +26,5 @@ Hi, I'm Bachina Pranav. I am a Machine Learning Engineer at FactSet Research Sys
 During my academic journey, I worked closely as an undergraduate researcher under the supervision of [Dr. Charu Sharma](https://charusharma.org/)  and [Dr. Ankit Gangwal](https://sypy.iiit.ac.in/index.html). 
 
 My primary research interests revolve around Machine Learning Security, Geometric Deep Learning, and AI Safety.
+
+For students interested in entering the field, I created [A Reading Path into Machine Learning Security Research](/teaching/#ml-security-reading-path), a structured self-study guide covering foundational concepts, seminal papers, and hands-on research checkpoints.
